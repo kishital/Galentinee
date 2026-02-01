@@ -1,0 +1,44 @@
+body {
+  background: linear-gradient(135deg, #ffafbd, #ffc3a0);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+h1 {
+  color: #ff4d6d;
+}
+
+button {
+  padding: 12px 25px;
+  margin: 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+#yes {
+  background-color: #ff4d6d;
+  color: white;
+}
+
+#no {
+  background-color: #ccc;
+}
+
+#response {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #ff4d6d;
+}
